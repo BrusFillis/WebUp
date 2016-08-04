@@ -109,7 +109,7 @@ q:before, q:after {
 #signaturesign {
 	width: 414px;
 	height: 118px;
-	background-image: url(https://pp.vk.me/c626929/v626929965/206ab/9RbFzT2hne4.jpg);
+	background-image: url(http://astrostar.vn/wp-content/uploads/2016/06/Signature.png);
 	background-repeat: no-repeat;
 	margin: -50px 50px 0 auto;
 }
