@@ -139,6 +139,7 @@ margin-right: -25px;
   color: darkblue;
   width: 85%;
   float:inherit;
+  -moz-float:inherit;
 min-width: 300px;
 background: rgb(255,255,255);
 background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(233,249,0,1) 57%, rgba(233,249,0,1) 61%, rgba(233,249,0,1) 63%, rgba(233,249,0,1) 78%, rgba(233,249,0,1) 99%); 
