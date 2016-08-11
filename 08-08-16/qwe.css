@@ -27,40 +27,51 @@ time, mark, audio, video {
 }
 
 html {
-overflow-y: hidden;
-	height: 100%;
-
+overflow: hidden;
 }
 .wrapper{
+
+  background: url(bcgr.png);
+    width: 100%;
+  height: 100%;
+}
+.bc{
+  
   width: 100%;
   height: 100%;
-  background: url(bcgr.png);
+  min-width: 1366px;
+  min-height: 660px;
+ 
 }
 .menu{
+  position: absolute;
+  top:22%;
   float: left;
-  padding-top:210px;
-  padding-left:3%;
-  width: 20%;
-  min-width: 390px;
-  height: 100%;
-  min-height: 100%;
-  min-height: 800px;
+  
+  padding-left:2%;
+  width: 25%;
+  min-width: 300px;
+  
+  
+
 
 }
 .btn{
+  
   text-align: center;
-  line-height: 53px;
-  height: 53px;
+  line-height: 250%;
+  height: 6%;
+  min-height: 40px;
   font-family: BRUX;
   width: 45%;
   
   background-color: dodgerblue;
   border-radius: 12px;
   font-weight: bolder;
-  font-size: 24px;
+  font-size: 20px;
   box-shadow: 1px 4px 36px -5px #000000 inset;
   box-shadow: 4px 5px 10px 1px #000000;
-  margin-bottom: 10%;
+  margin-bottom: 7%;
  
 }
 .btn:hover{
@@ -68,8 +79,8 @@ overflow-y: hidden;
 }
 .ct{
   color: yellow;
-  width: 87%;
-  min-width: 87%;
+  width: 80%;
+  min-width: 270px;
 background: rgb(255,255,255); 
 background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(252,92,0,1) 100%); 
 background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(252,92,0,1) 100%); 
@@ -81,10 +92,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .cc{
   
   color: yellow;
-  height: 50px;
-  line-height: 45px;
-   width: 90%;
-min-width: 90%;
+  
+  
+   width: 85%;
+min-width: 290px;
 background: rgb(255,255,255); 
 background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(0,154,249,1) 100%); 
 background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(0,154,249,1) 100%); 
@@ -95,8 +106,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 .save{
   color: darkblue;
-    width: 50%;
- min-width: 50%;
+    width: 45%;
+ min-width: 150px;
 background: rgb(255,255,255);
 background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(45,183,0,1) 99%); 
 background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(45,183,0,1) 99%); 
@@ -112,7 +123,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .print{
   color: darkblue;
     width: 45%;
- min-width: 45%;
+ min-width: 150px;
 background: rgb(255,255,255);
 background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(239,0,252,1) 100%); 
 background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(239,0,252,1) 100%); 
@@ -128,7 +139,7 @@ margin-right: -25px;
   color: darkblue;
   width: 85%;
   float:inherit;
-min-width: 85%;
+min-width: 300px;
 background: rgb(255,255,255);
 background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(233,249,0,1) 57%, rgba(233,249,0,1) 61%, rgba(233,249,0,1) 63%, rgba(233,249,0,1) 78%, rgba(233,249,0,1) 99%); 
 background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(233,249,0,1) 57%,rgba(233,249,0,1) 61%,rgba(233,249,0,1) 63%,rgba(233,249,0,1) 78%,rgba(233,249,0,1) 99%);
@@ -139,20 +150,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .canvas{
   
   position: absolute;
- top:20px;
-  left: 700px;
-   padding-right: 200px;
+  top:20px;
+  right: 0;
+  padding-right: 10%;
+  
 }
 .canvas img{
   min-width: 100%;
  
-  height:800px;
+  height: 80%;
 }
 .ins
 {
+  position: absolute;
   height: 10%;
-  padding-top:  45%;
-  padding-left: 45%;
+  bottom:20px;
+  right: 15%;
 }
 .ins li{
   transition: 0.5s;
@@ -167,17 +180,25 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .ins li img{
   width: auto;
 }
+.kl1{
+  display: block;
+  padding-top: 60%;
+  min-width: 350px;
+  padding-left: ;
+
+  
+}
 .kl
 {
-  padding-top:  370px;
-  padding-left: 70px;
-  height: 50px;  
+   height: 6.5%;
+    min-height: 37px;
+  
 }
 .kl li{
    opacity: 0.7;
   cursor: pointer;
   display: inline;
-  padding-right: 30px;
+  padding-left: 10%;
 }
 .kl li:hover{
   opacity: 1;
